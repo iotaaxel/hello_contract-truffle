@@ -12,7 +12,7 @@ async function awaitWrapper(){
     // get some testnet funds at https://celo.org/build/faucet
     console.log(account.address)
     
-//     kit.connection.addAccount(account.privateKey) // this account must have a CELO balance to pay transaction fees
+    kit.connection.addAccount(account.privateKey) // this account must have a CELO balance to pay transaction fees
 
 //     let tx = await kit.connection.sendTransaction({
 //         from: account.address,
